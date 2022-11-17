@@ -1,0 +1,157 @@
+.blue-line{
+    color:#5E8EF5; 
+    font-size: 1.5rem;
+}
+.dollar{
+    color: #D16EA8; 
+    font-size: 1.5rem;
+}
+.command-exec{
+    color: #727272; 
+    font-size: 1.5rem;
+}
+/* ------------------------------------------- */
+.blue-line-two{
+    color:#5E8EF5; 
+    font-size: 1.5rem;
+}
+.command-exec-two{
+    color: #D16EA8; 
+    font-size: 1.5rem;
+}
+.dollar-two{
+    color: #D16EA8; 
+    font-size: 1.5rem;
+}
+.command-exec-three{
+    color: #727272; 
+    font-size: 1.5rem;
+}
+/* ------------------------------------------- */
+.blue-line-three{
+    color:#5E8EF5; 
+    font-size: 1.5rem;
+}
+.command-exec-four{
+    color: #D16EA8; 
+    font-size: 1.5rem;
+}
+.dollar-three{
+    color: #D16EA8; 
+    font-size: 1.5rem;
+}
+.command-exec-five{
+    color: #727272; 
+    font-size: 1.5rem;
+}
+.green-info{
+    color: #81D16E; 
+    font-size: 1.5rem;
+}
+/* ------------------------------------------- */
+@media all and (max-width: 1300px){
+    .blue-line{
+        color:#5E8EF5; 
+        font-size: 1.2rem;
+    }
+    .dollar{
+        color: #D16EA8; 
+        font-size: 1.2rem;
+    }
+    .command-exec{
+        color: #727272; 
+        font-size: 1.2rem;
+    }
+    /* ------------------------------------------- */
+    .blue-line-two{
+        color:#5E8EF5; 
+        font-size: 1.2rem;
+    }
+    .command-exec-two{
+        color: #D16EA8; 
+        font-size: 1.2rem;
+    }
+    .dollar-two{
+        color: #D16EA8; 
+        font-size: 1.2rem;
+    }
+    .command-exec-three{
+        color: #727272; 
+        font-size: 1.2rem;
+    }
+    /* ------------------------------------------- */
+    .blue-line-three{
+        color:#5E8EF5; 
+        font-size: 1.2rem;
+    }
+    .command-exec-four{
+        color: #D16EA8; 
+        font-size: 1.2rem;
+    }
+    .dollar-three{
+        color: #D16EA8; 
+        font-size: 1.2rem;
+    }
+    .command-exec-five{
+        color: #727272; 
+        font-size: 1.2rem;
+    }
+    .green-info{
+        color: #81D16E; 
+        font-size: 1.2rem;
+    }
+
+}
+/* ------------------------------------------- */
+@media all and (max-width: 930px){
+    .blue-line{
+        color:#5E8EF5; 
+        font-size: 1rem;
+    }
+    .dollar{
+        color: #D16EA8; 
+        font-size: 1rem;
+    }
+    .command-exec{
+        color: #727272; 
+        font-size: 1rem;
+    }
+    /* ------------------------------------------- */
+    .blue-line-two{
+        color:#5E8EF5; 
+        font-size: 1rem;
+    }
+    .command-exec-two{
+        color: #D16EA8; 
+        font-size: 1rem;
+    }
+    .dollar-two{
+        color: #D16EA8; 
+        font-size: 1rem;
+    }
+    .command-exec-three{
+        color: #727272; 
+        font-size: 1rem;
+    }
+    /* ------------------------------------------- */
+    .blue-line-three{
+        color:#5E8EF5; 
+        font-size: 1rem;
+    }
+    .command-exec-four{
+        color: #D16EA8; 
+        font-size: 1rem;
+    }
+    .dollar-three{
+        color: #D16EA8; 
+        font-size: 1rem;
+    }
+    .command-exec-five{
+        color: #727272; 
+        font-size: 1rem;
+    }
+    .green-info{
+        color: #81D16E; 
+        font-size: 1rem;
+    }
+}
