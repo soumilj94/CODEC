@@ -168,9 +168,7 @@ header{
 /* ABOUT END */
 
 .team-container{
-    /* border: 2px solid blue; */
     background-color: var(--color-bg);
-    /* height: 100vh; */
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -198,13 +196,11 @@ header{
 }
 .blur-card{
     border: 1px solid white;
-    width: 100%;
     border-radius: 16px;
-    display: block;
+    display: grid;
     text-align: center;
     color: white;
     height: 100%;
-
 }
 .blur-card img{
     padding: 2rem 0;
@@ -216,12 +212,28 @@ header{
 }
 .blur-card h2{
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
+}
+.blur-card h3{
+    font-weight: 400;
 }
 .people-contact img{
     padding: 2rem 0;
     width: 3rem;
     border-radius: 0%;
+}
+
+footer{
+    /* border: 1px solid white; */
+    padding: 0 4%;
+    width: 100%;
+    height: 3rem;
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
 }
 /* ---------------------------------------------------------------Terminal END----------------------------------------------------- */
 
@@ -362,5 +374,11 @@ header{
         padding: 2rem 0;
         width: 3rem;
         border-radius: 0%;
+    }
+    footer{
+        height: 8rem;
+        display: block;
+        padding: 2rem 0rem;
+        text-align: center;
     }
 }

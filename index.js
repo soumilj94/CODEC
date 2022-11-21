@@ -9,17 +9,33 @@ document.querySelectorAll("nav_links").forEach(n => n.addEventListener("click", 
     navMenu.classList.remove("active");
 }))
 
+ScrollReveal({
+    reset: true,
+    distance: '60px',
+    duration: 1000,
+    delay: 0
+});
+ScrollReveal().reveal('.hero_left img', {delay: 0, opacity: 0, origin: 'top'})
+ScrollReveal().reveal('.hero_right', {delay: 250, opacity: 0, origin: 'right'})
+ScrollReveal().reveal('.abt-left', {delay: 150, opacity: 0, origin: 'left'})
+ScrollReveal().reveal('.abt-right', {delay: 650, opacity: 0, origin: 'right'})
+ScrollReveal().reveal('.team-container h1', {delay: 250, opacity: 0, origin: 'top'})
+ScrollReveal().reveal('.terminal', {delay: 500, opacity: 0, origin: 'bottom'})
+ScrollReveal().reveal('.cw-left', {delay: 250, opacity: 0, origin: 'left'})
+ScrollReveal().reveal('.cw-mid', {delay: 250, opacity: 0})
+ScrollReveal().reveal('.cw-right', {delay: 250, opacity: 0, origin: 'right'})
+
 // ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 var typed = new Typed(".auto-type",{
-    strings: ["CODEC"],
+    strings: ["^500CODEC"],
     typeSpeed:150,
     backSpeed:150,
     showCursor: false
 })
 
 var typed = new Typed(".auto-type-para",{
-    strings: ["the coding club...", "the competitive club...", "the challenging club...","inclusivity brings<br>excellence"],
+    strings: ["^1800the coding club...", "the competitive club...", "the challenging club...","inclusivity brings<br>excellence"],
     typeSpeed:50,
     backSpeed:20,
     loop:false,/*Change this*/
