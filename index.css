@@ -148,7 +148,7 @@ header{
 /* HERO END */
 
 .about-container{
-    background-color: #eeeeee;
+    background-color: #ffffff;
     width: 100%;
     height: 50%;
     position: relative;
@@ -170,6 +170,50 @@ header{
 }
 
 /* ABOUT END */
+
+.events-parent{
+    height: 35rem;
+    position: relative;
+    background-color: #dfdfdf;
+}
+.cards-container{
+    text-align: center;
+}
+.cards-container h1{
+    padding-top: 2rem;
+    font-size: 5rem;
+}
+.eventCardCont{
+    height: 25rem;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.eveCard{
+    background-color: #ffffff;
+    width: 20rem;
+    height: 20rem;
+    transition: .2s ease-in-out;
+}
+.eveCard img{
+    max-width: 100%;
+    padding: 1rem;
+}
+.eveCard h3{
+    margin-top: 1rem;
+    font-size: 30px;
+    color: #5E8EF5;
+    cursor: default;
+}
+.eveCard:hover{
+    width: 20.5rem;
+    height: 20.5rem;
+    box-shadow: 1px 1px 25px #363636;
+}
+
+/* EVENTS END */
 
 .team-container{
     background-color: var(--color-bg);
