@@ -171,47 +171,69 @@ header{
 
 /* ABOUT END */
 
-.events-parent{
-    height: 35rem;
-    position: relative;
-    background-color: #dfdfdf;
+/* Alpha Stage Right Now! */
+.event-container{
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 1% 0%;
 }
-.cards-container{
+.event-container h1{
+    color: var(--color-background);
+    font-size: 5rem;
+    letter-spacing: 1rem;
     text-align: center;
 }
-.cards-container h1{
-    padding-top: 2rem;
-    font-size: 5rem;
-}
-.eventCardCont{
-    height: 25rem;
-    padding: 2rem 5rem;
+.eve-card-parent{
+    width: 100%;
+    padding: 4% 4%;
+    gap: 4rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 3rem;
+    justify-content: center;
 }
-.eveCard{
-    background-color: #ffffff;
-    width: 20rem;
-    height: 20rem;
-    transition: .2s ease-in-out;
+.eve-card-text{
+    width: 100%;
+    border: 3px solid var(--color-secondary);
+    font-size: 2rem;
+    text-align: center;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
-.eveCard img{
+.eve-card-text:hover{
+    background-color: var(--color-secondary);
+}
+@media all and (max-width:1125px) {
+    .eve-card-text{
+        font-size: 1.4rem;
+    }
+}
+.card-left{
+    position: relative;
+    width: 50vh;
+    height: 40vh;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.card-cent{
+    position: relative;
+    width: 50vh;
+    height: 40vh;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.card-right{
+    position: relative;
+    width: 50vh;
+    height: 40vh;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.eve-image img{
+    position: relative;
+    
     max-width: 100%;
-    padding: 1rem;
 }
-.eveCard h3{
-    margin-top: 1rem;
-    font-size: 30px;
-    color: #5E8EF5;
-    cursor: default;
-}
-.eveCard:hover{
-    width: 20.5rem;
-    height: 20.5rem;
-    box-shadow: 1px 1px 25px #363636;
-}
+
 
 /* EVENTS END */
 
@@ -430,10 +452,34 @@ footer{
         width: 3rem;
         border-radius: 0%;
     }
+    .event-container h1{
+        font-size: 3rem;
+    }
+    .eve-card-parent{
+        display: grid;
+    }
+    .card-left{
+        width: 40vh;
+        height: auto;
+    }
+    .card-cent{
+        width: 40vh;
+        height: auto;
+    }
+    .card-right{
+        width: 40vh;
+        height: auto;
+    }
     footer{
         height: 8rem;
         display: block;
         padding: 2rem 0rem;
         text-align: center;
+    }
+}
+@media all and (max-height: 760px){
+    .hero_right p{
+        font-size: 1.8rem;
+        padding: 2rem 1em;
     }
 }
