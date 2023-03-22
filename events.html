@@ -9,6 +9,55 @@
     <link rel="stylesheet" href="./events.css"/>
 </head>
 <body>
-    
+    <div class="parent-container">
+
+        <div class="left-side-container">
+            <ul>
+                <a href="#2023"><li>2023</li></a>
+                <a href="#"><li>2022</li></a>
+                <a href="#"><li>2021</li></a>
+            </ul>
+        </div>
+
+        <div class="right-side-container">
+            
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="./img/event-section/sessions/pic2.jpg">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="./img/event-section/sessions/pic1.jpg">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="./img/event-section/sessions/pic2.jpg">
+                </div>
+                
+                <div class="prev-next-container">
+                  <a class="prev" onclick="plusSlides(-1)">❮</a>
+                  <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+
+                <div class="brief-para">
+                  <p style="color: white;">lorem ipsum</p>
+                </div>
+
+        </div>
+
+    </div>
+
+    <script src="./slideshow.js"></script>
+        
 </body>
 </html>
