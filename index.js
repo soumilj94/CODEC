@@ -19,6 +19,12 @@ ScrollReveal().reveal('.hero_left img', {delay: 0, opacity: 0, origin: 'top'})
 ScrollReveal().reveal('.hero_right', {delay: 250, opacity: 0, origin: 'right'})
 ScrollReveal().reveal('.abt-left', {delay: 150, opacity: 0, origin: 'left'})
 ScrollReveal().reveal('.abt-right', {delay: 650, opacity: 0, origin: 'right'})
+
+ScrollReveal().reveal('.event-heading', {delay: 250, opacity: 0, origin: 'top'})
+ScrollReveal().reveal('.card-left', {delay: 150, opacity: 0, origin: 'left'})
+ScrollReveal().reveal('.card-cent', {delay: 250, opacity: 0, origin: 'bottom'})
+ScrollReveal().reveal('.card-right', {delay: 150, opacity: 0, origin: 'right'})
+
 ScrollReveal().reveal('.team-container h1', {delay: 250, opacity: 0, origin: 'top'})
 ScrollReveal().reveal('.terminal', {delay: 500, opacity: 0, origin: 'bottom'})
 ScrollReveal().reveal('.cw-left', {delay: 250, opacity: 0, origin: 'left'})
