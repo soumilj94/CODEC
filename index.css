@@ -274,7 +274,7 @@ header{
     height: 100%;
 }
 .blur-card img{
-    padding: 2rem 0;
+    padding: 2rem 0rem;
     width: 50%;
     border-radius: 50%;
 }
